@@ -8,8 +8,8 @@ console.log(suma)
 //
 let numero1 = 10;
 let numero2= 4;
-let result = numero1-numero2;
-console.log(result)
+let resta = numero1-numero2;
+console.log(resta)
 //
 let c = 10;
 let d = 4;
@@ -27,4 +27,28 @@ contador -= 1
 contador *= 5
 contador /= 2
 console.log(contador)
-//
+//Operadores de Comparación:
+ console.log(2==4);
+ console.log("2"==2);
+ Output:
+ false
+ true
+//Operaciones Logicos:
+ //Cuando se usa con valores booleanos, && devuelve verdadero 
+ //si ambos operandos son verdaderos; de lo contrario, devuelve falso.
+ console.log(true || false);
+ Output: true
+ //Devuelve falso si su único operando se puede convertir en verdadero; de lo contrario, devuelve verdadero.
+ console.log(!true);
+ Output: false
+//Operaciones bitwise:
+ console.log(4 & 1);
+ Output: 0
+//Operadores Especiales: 
+let result = (200>100) ? "Yes" : "No";
+console.log(result);
+Output:Yes
+
+
+
+
