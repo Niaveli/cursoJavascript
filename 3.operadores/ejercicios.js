@@ -47,7 +47,6 @@ console.log(contador)
 //Operadores Especiales: 
 let result = (200>100) ? "Yes" : "No";
 console.log(result);
-Output:Yes
 
 
 
