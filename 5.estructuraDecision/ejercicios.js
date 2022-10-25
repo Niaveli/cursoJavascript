@@ -33,3 +33,69 @@ if (divisor ==0){
 }else{
     console.log(dividendo/divisor)
 }
+
+//
+numeroMes=2
+switch(numeroMes){
+    case 1:
+        console.log("enero")
+        break
+    case 2:
+        console.log ("febrero")
+        break
+    case 3:
+        console.log ("marzo")
+        break
+    default:
+        console.log("error mes no encontrado")
+}
+//
+numero=6
+switch(numero){
+    case 1:
+        console.log("uno")
+        break
+    case 2:
+        console.log("dos")
+    case 3:
+        console.log("tres")
+        break
+    case 4:
+        console.log("cuatro")
+        break
+    case 5:
+        console.log("cuatro")
+        break
+    default:
+        console.log("error numero no encontrado")
+}
+//
+letra="i"
+switch(letra){
+    case "a":
+        console.log("Es un vocal")
+        break
+    case "e":
+        console.log("Es una vocal")
+        break
+    case "i":
+        console.log("Es una vocal")
+        break
+    case "o":
+        console.log("Es una vocal")
+        break
+    case "u":
+        console.log("Es una vocal")
+        break
+    default:
+        console.log("No es una vocal")
+}
+//
+letra="e"
+switch(letra){
+    case "a":case "e":case "i":case "o":case "u":
+        console.log('la letra es una vocal')
+        break
+    default:
+        console.log("no es una vocal")
+}
