@@ -1,18 +1,21 @@
 //EJERCICIOS:
  //1. contarVocales('eucalipto')//5
-function contarVocales(texto){
-    let contarVocales =0
-    let vocales=['a','e','i','o','u']
-    for (let i= 0; i<texto.length; i++){
-        if (vocales.indexOf(texto[i])>=0)
-        ++contarVocales;
-    }
-    return contarVocales;
-}
-console.log(contarVocales('eucalipto'));
-console.log(contarVocales('tomate'));
-console.log(contarVocales('diamantes'));
 
+function contarVocales(texto){
+    const vocales= "aeiou";
+    let cantidadVocales =0
+    for(const letra of texto){
+        if (vocales.includes(letra.toLowerCase())) {
+            cantidadVocales++;
+        }
+    }
+    return cantidadVocales;
+}
+console.log(contarVocales("eucalipto"))
+console.log(contarVocales("rosa"))
+console.log(contarVocales("tomate"))
+
+  
 //2. fuction calculadora (num1,num2,operación){retur total}
 function calculadora(operacion, x,y){
     let total=0
